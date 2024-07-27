@@ -19,29 +19,43 @@ You can install the necessary libraries using pip:
 ```bash
 pip install pandas numpy seaborn matplotlib scikit-learn
 Data
-The dataset is assumed to be in a CSV file named car_purchasing.csv. It includes various features related to car purchases.
-
-Steps:
-###Load Data
-
-Read the dataset from a CSV file using pandas.
-Data Preprocessing
-
-Convert text data to numerical features.
-Rename columns for clarity.
-Select only numerical columns for analysis.
-###Visualization
-
-Plot a heatmap of the correlation matrix to understand feature relationships.
-Generate binned histograms to analyze the relationship between age, salary, and net worth with car purchase amount.
+The dataset is in a CSV file named car_purchasing.csv. It includes various features related to car purchases.
 
 
-### Linear Regression:
-Standardize features.
-Train a Linear Regression model and evaluate its performance using R-squared.
-Lasso Regression:
-Train a Lasso Regression model with regularization.
-Perform Grid Search to find the best alpha parameter.
-Evaluate and compare model performance on training and test sets.
-Cross-Validation:
-Evaluate model performance using cross-validation.
+# Car Purchasing Analysis
+
+## Steps
+
+### Load Data
+
+- Read the dataset from a CSV file using pandas.
+
+### Data Preprocessing
+
+- Convert text data to numerical features.
+- Rename columns for clarity.
+- Select only numerical columns for analysis.
+
+### Visualization
+
+- Plot a heatmap of the correlation matrix to understand feature relationships.
+- Generate binned histograms to analyze the relationship between age, salary, and net worth with car purchase amount.
+
+### Modeling
+
+#### Linear Regression
+
+- Standardize features.
+- Train a Linear Regression model and evaluate its performance using R-squared.
+
+#### Lasso Regression
+
+- Train a Lasso Regression model with regularization.
+- Perform Grid Search to find the best alpha parameter.
+- Evaluate and compare model performance on training and test sets.
+
+#### Cross-Validation
+
+- Evaluate model performance using cross-validation.
+
+
