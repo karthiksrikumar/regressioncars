@@ -3,25 +3,6 @@
 ## Overview
 
 This project analyzes car purchasing data to understand the relationships between various numerical features and the amount spent on cars. The analysis includes data preprocessing, visualization, and modeling using Linear Regression and Lasso Regression.
-
-## Requirements
-
-Ensure you have the following Python libraries installed:
-
-- `pandas`
-- `numpy`
-- `seaborn`
-- `matplotlib`
-- `scikit-learn`
-
-You can install the necessary libraries using pip:
-
-```bash
-pip install pandas numpy seaborn matplotlib scikit-learn
-Data
-The dataset is in a CSV file named car_purchasing.csv. It includes various features related to car purchases.
-
-
 # Car Purchasing Analysis
 
 ## Steps
@@ -57,5 +38,25 @@ The dataset is in a CSV file named car_purchasing.csv. It includes various featu
 #### Cross-Validation
 
 - Evaluate model performance using cross-validation.
+
+
+## Requirements
+
+Ensure you have the following Python libraries installed:
+
+- `pandas`
+- `numpy`
+- `seaborn`
+- `matplotlib`
+- `scikit-learn`
+
+You can install the necessary libraries using pip:
+
+```bash
+pip install pandas numpy seaborn matplotlib scikit-learn
+Data
+The dataset is in a CSV file named car_purchasing.csv. It includes various features related to car purchases.
+
+
 
 
